@@ -1,0 +1,67 @@
+{
+    "author": "Kreyo",
+    "dependencies": {},
+    "keywords": [],
+    "name": "owl-time",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Owl Time",
+        "enableMultiJS": true,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/owl_winter.png",
+                    "name": "OWL_WINTER",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/owl_rain.png",
+                    "name": "OWL_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/owl_small.png",
+                    "menuIcon": true,
+                    "name": "OWL_IMG_SMALL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/owl_pixel.png",
+                    "name": "OWL_NO_BT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/calibri_bold",
+                    "name": "CALIBRI_BOLD_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/owl.png",
+                    "name": "OWL_IMG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "9f451b04-6b1e-4660-85b0-61ee3a9a25ea",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
